@@ -1,0 +1,35 @@
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.clients img {
+    width: 50%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 10px 0;
+  
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 575px) {
+    .clients img {
+        width: 30%;
+    }
+}
+@media (max-width: 768px) {
+    .clients img {
+        width: 40%;
+    }
+}
+.clients {
+    background: #f3f9fd;
+    padding: 10px 0;
+    text-align: center;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

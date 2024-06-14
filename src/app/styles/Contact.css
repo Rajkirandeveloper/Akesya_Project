@@ -1,0 +1,66 @@
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+}
+
+.contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact .contact-about h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #14279b;
+}
+.contact .contact-about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #888;
+    padding: 20px 0px 0px 0px;
+   
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.contact .info svg {
+    font-size: 32px;
+    color: #14279b;
+    float: left;
+    line-height: 1;
+}
+
+.submit-btn{
+    background: #14279b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-top: 10px;    
+}

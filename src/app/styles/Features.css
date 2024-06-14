@@ -1,0 +1,89 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.section-title h2::before, .section-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #14279b;
+    display: inline-block;
+}
+.section-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.section-title h2::before, .section-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #14279b;
+    display: inline-block;
+}
+
+.section-title p {
+    margin: 15px 0 0 0;
+}
+.section-title p {
+    font-size: 10px;
+     color: #5e5e5e;
+    
+}
+.features .icon-box h3 a:hover {
+    color: #14279b;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+.features .icon-box h3 a {
+    color: #222222;
+    transition: ease-in-out 0.3s;
+}
+a:hover {
+    color: #5faee3;
+    text-decoration: none;
+}
+.features .icon-box i {
+    height: 25px;
+    width: 30px;
+    font-size: 30px;
+    padding-right: 10px;
+    line-height: 1;
+    padding: 0 10px 0 0;
+    margin-right: 15px;
+}
+.features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f6f6f6;
+    transition: ease-in-out 0.3s;
+    margin: 10px;
+}
+.features .icon-box:hover {
+    background: #eef7fc;
+}
+.section-title h6{
+    margin: 10px;
+    padding: 10px;
+}
+

@@ -1,0 +1,43 @@
+/* ScrollToTopButton.module.css */
+
+.scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.scrollToTopButton button {
+  background-color: #14279b; /* Change the background color as needed */
+  color: white;
+  border: none;
+ 
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.scrollToTopButton button:hover {
+  background-color: #0056b3; /* Change the hover color as needed */
+}
+
+.hidden {
+  display: none;
+}
+/* Media query for small screens (mobile) */
+@media screen and (max-width: 768px) {
+  .scrollToTopButton {
+    opacity: 1; /* Ensure the button is visible on mobile screens */
+    z-index: 9999; /* Ensure the button is above other content */
+  }
+  
+  .scrollToTopButton button {
+    width: 40px; /* Increase the width for better visibility on mobile */
+    height: 40px; /* Increase the height for better visibility on mobile */
+    font-size: 28px; /* Increase the font size for better visibility on mobile */
+  }
+ 
+}
